@@ -1,4 +1,3 @@
-# Python-Projects
     
     
     In this project, we're analysing the data for a company that builds Android and iOS mobile apps. We make our apps available on Google Play and the App Store.
@@ -50,3 +49,4 @@ Genres : Genre
 Last Updated : Last updated date
 Current Ver : Current Version
 Android Ver : Android version
+

@@ -1,3 +1,52 @@
 # Python-Projects
-This repository is a series of notebooks that show solutions for the projects 
-* [Profitable App Profiles for the App Store and Google Play Markets](https://github.com/AllahBasha/Python-Projects/blob/master/AppleStore.txt)
+    
+    
+    In this project, we're analysing the data for a company that builds Android and iOS mobile apps. We make our apps available on Google Play and the App Store.
+
+We only build apps that are free to download and install, and our main source of revenue consists of in-app ads. This means our revenue for any given app is mostly influenced by the number of users who use our app. Our goal for this project is to analyze data to help our developers understand what kinds of apps are likely to attract more users.
+
+It has two input files
+
+     *  applestore.csv
+     *  GoogglePlatstore.csv
+
+
+--------------------------------------------------------------------------------------------
+Contents of appleStore.csv :                                                               |
+--------------------------------------------------------------------------------------------
+
+"id" : App ID
+"track_name": App Name
+"size_bytes": Size (in Bytes)
+"currency": Currency Type
+"price": Price amount
+"rating_count_tot": User Rating counts (for all version)
+"rating_count_ver": User Rating counts (for current version)
+"user_rating" : Average User Rating value (for all version)
+"user_rating_ver": Average User Rating value (for current version)
+"ver" : Latest version code
+"cont_rating": Content Rating
+"prime_genre": Primary Genre
+"sup_devices.num": Number of supporting devices
+"ipadSc_urls.num": Number of screenshots showed for display
+"lang.num": Number of supported languages
+"vpp_lic": Vpp Device Based Licensing Enabled
+
+
+------------------------------------------------------------------------------------------
+Contents of GooglePlaystore.csv:                                                         |
+------------------------------------------------------------------------------------------
+
+App : Name of the application
+Category : category of the app
+Rating  : User Rating 
+Reviews : User Reviews
+Size  : Size of the app
+Installs : No.of installation
+Type :  Free or charged
+Price : price 
+Content Rating : Ratings of content
+Genres : Genre
+Last Updated : Last updated date
+Current Ver : Current Version
+Android Ver : Android version
